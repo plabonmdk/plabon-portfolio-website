@@ -26,12 +26,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full top-0 z-[1000] left-0 py-4 transition-all duration-500 ${
-        isScrolled ? "bg-black/40 backdrop-blur-xl shadow-lg" : "bg-transparent"
+      className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 ${
+        isScrolled
+          ? "bg-black/50 backdrop-blur-xl shadow-lg"
+          : "bg-transparent"
       }`}
     >
-      <div className="flex items-center justify-between px-6">
-        
+      {/* Container */}
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 relative">
+
         {/* Logo */}
         <div className="flex items-center gap-2 group cursor-pointer">
           <Code className="w-6 h-6 text-primary transition-transform duration-300 group-hover:rotate-12" />
@@ -44,7 +47,7 @@ const Navbar = () => {
         </div>
 
         {/* Center Menu */}
-        <div className="hidden md:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
           {NAV_LINKS.map((link) => (
             <button
               key={link.id}
@@ -86,9 +89,9 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden flex flex-col items-center gap-4 mt-4 overflow-hidden transition-all duration-500 ${
-          isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-        }`}
+        className={`md:hidden bg-black/90 backdrop-blur-xl flex flex-col items-center gap-5 px-6 transition-all duration-500 ${
+          isMenuOpen ? "max-h-96 py-6 opacity-100" : "max-h-0 py-0 opacity-0"
+        } overflow-hidden`}
       >
         {NAV_LINKS.map((link) => (
           <button

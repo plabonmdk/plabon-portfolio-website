@@ -1,7 +1,8 @@
 export const PERSONAL_INFO = {
   id: 1,
-  name: "Plabon Chandro Modak",
+  name: "PLABON",
   title: "Full Stack Web Developer",
+  image: "https://i.ibb.co.com/chWpJvgS/Focused-professional-at-work.png",
   email: "plabon@example.com",
   location: "Brahmanbaria, Bangladesh",
   tagline: "I build modern, responsive, and user-friendly web applications.",
