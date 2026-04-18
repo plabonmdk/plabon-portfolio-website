@@ -2,9 +2,9 @@ export const PERSONAL_INFO = {
   id: 1,
   name: "PLABON",
   title: "Full Stack Web Developer",
-  image: "https://i.ibb.co.com/chWpJvgS/Focused-professional-at-work.png",
-  email: "plabon@example.com",
-  location: "Brahmanbaria, Bangladesh",
+  image: "https://i.ibb.co.com/SDK1ZHf2/Focused-professional-at-work-removebg-preview.png",
+  email: "plabonmdk@gmail.com",
+  location: "gaibandha, dhaka",
   tagline: "I build modern, responsive, and user-friendly web applications.",
   resume: "https://your-resume-link.com",
   bio: "I am a passionate Full Stack Web Developer focused on building clean, efficient, and scalable web applications using modern technologies like React, Node.js, and MongoDB."
@@ -37,3 +37,4 @@ export const NAV_LINKS = [
   { id: "services", label: "Services" },
   { id: "contact", label: "Contact" }
 ];
+

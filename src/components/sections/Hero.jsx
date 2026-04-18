@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronDown, Star } from "lucide-react";
+import RadialGradientBackground from "../backgrounds/RadialGradientBackground";
 import {
   SiReact,
   SiNextdotjs,
@@ -8,7 +9,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 
-import { PERSONAL_INFO, STATS } from "../../utils/constants";
+import { PERSONAL_INFO, ABOUT_STATS } from "../../utils/constants";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
 
@@ -55,6 +56,7 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 overflow-hidden bg-black pt-20">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-green-400/10 blur-[120px] rounded-full" />
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
 
         {/* LEFT SIDE */}
@@ -103,7 +105,7 @@ const Hero = () => {
 
           <FadeIn delay={400}>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
-              {STATS.map((item, index) => (
+              {ABOUT_STATS.map((item, index) => (
                 <div
                   key={index}
                   className="bg-white/5 border border-white/10 rounded-xl p-4 text-center backdrop-blur"
@@ -127,7 +129,7 @@ const Hero = () => {
             <div className="relative w-[280px] h-[350px] sm:w-[350px] sm:h-[400px] md:w-[380px] md:h-[460px] lg:w-[500px] lg:h-[600px]">
 
               {/* IMAGE */}
-              <div className="relative w-full h-full rounded-3xl overflow-hidden z-20">
+              <div className="relative w-full h-full rounded-[16%] overflow-hidden z-20">
                 <img
                   src={PERSONAL_INFO.image}
                   alt="profile"
@@ -136,7 +138,7 @@ const Hero = () => {
               </div>
 
               {/* ICONS */}
-              <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex gap-3 px-4 py-2 rounded-xl z-30">
+              {/* <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex gap-3 px-4 py-2 rounded-xl z-30">
                 {[SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb].map(
                   (Icon, i) => (
                     <div
@@ -147,7 +149,7 @@ const Hero = () => {
                     </div>
                   )
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
         </FadeIn>
