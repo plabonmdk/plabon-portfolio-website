@@ -1,88 +1,117 @@
-const skills = [
+import {
+  SiHtml5,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiTailwindcss,
+  SiBootstrap,
+  SiGit,
+  SiGithub,
+  SiExpress,
+  SiFirebase,
+} from "react-icons/si";
+
+export const skills = [
   {
     id: 1,
     name: "HTML",
-    icon: "🌐",
+    icon: SiHtml5,
     level: "Advanced",
-    experience: "2 Years"
-  },
-  {
-    id: 2,
-    name: "CSS",
-    icon: "🎨",
-    level: "Advanced",
-    experience: "2 Years"
+    experience: "2 Years",
+    category: "frontend",
+    progress: "90%",
   },
   {
     id: 3,
     name: "JavaScript",
-    icon: "⚡",
+    icon: SiJavascript,
     level: "Intermediate",
-    experience: "2 Years"
+    experience: "2 Years",
+    category: "frontend",
+    progress: "80%",
   },
   {
     id: 4,
     name: "React",
-    icon: "⚛️",
+    icon: SiReact,
     level: "Intermediate",
-    experience: "1.5 Years"
-  },
-  {
-    id: 5,
-    name: "Node.js",
-    icon: "🟢",
-    level: "Intermediate",
-    experience: "1 Year"
-  },
-  {
-    id: 6,
-    name: "MongoDB",
-    icon: "🍃",
-    level: "Beginner",
-    experience: "8 Months"
+    experience: "1.5 Years",
+    category: "frontend",
+    progress: "75%",
   },
   {
     id: 7,
     name: "Tailwind CSS",
-    icon: "💨",
+    icon: SiTailwindcss,
     level: "Advanced",
-    experience: "1.5 Years"
+    experience: "1.5 Years",
+    category: "frontend",
+    progress: "85%",
   },
   {
     id: 8,
     name: "Bootstrap",
-    icon: "🅱️",
+    icon: SiBootstrap,
     level: "Advanced",
-    experience: "2 Years"
+    experience: "2 Years",
+    category: "frontend",
+    progress: "88%",
   },
+
   {
-    id: 9,
-    name: "Git",
-    icon: "🔧",
+    id: 5,
+    name: "Node.js",
+    icon: SiNodedotjs,
     level: "Intermediate",
-    experience: "1 Year"
-  },
-  {
-    id: 10,
-    name: "GitHub",
-    icon: "🐙",
-    level: "Intermediate",
-    experience: "1 Year"
+    experience: "1 Year",
+    category: "backend",
+    progress: "70%",
   },
   {
     id: 11,
     name: "Express.js",
-    icon: "🚀",
+    icon: SiExpress,
     level: "Intermediate",
-    experience: "1 Year"
+    experience: "1 Year",
+    category: "backend",
+    progress: "70%",
+  },
+  {
+    id: 6,
+    name: "MongoDB",
+    icon: SiMongodb,
+    level: "Beginner",
+    experience: "8 Months",
+    category: "backend",
+    progress: "60%",
   },
   {
     id: 12,
     name: "Firebase",
-    icon: "🔥",
+    icon: SiFirebase,
     level: "Beginner",
-    experience: "6 Months"
-  }
-];
+    experience: "6 Months",
+    category: "backend",
+    progress: "55%",
+  },
 
-export default skills;
+  {
+    id: 9,
+    name: "Git",
+    icon: SiGit,
+    level: "Intermediate",
+    experience: "1 Year",
+    category: "tools",
+    progress: "75%",
+  },
+  {
+    id: 10,
+    name: "GitHub",
+    icon: SiGithub,
+    level: "Intermediate",
+    experience: "1 Year",
+    category: "tools",
+    progress: "78%",
+  },
+];

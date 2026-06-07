@@ -1,15 +1,16 @@
 export const projects = [
   {
     "id": 1,
-    "titel": "Portfolio Website",
+    "titel": "Plabon-Portfolio-Website",
     "discription": "Personal portfolio to showcase my skills and projects.",
-    "image": "/images/portfolio.png",
+    "image": "https://i.ibb.co.com/hR8CvjCp/Screenshot-2026-04-18-182039.png",
     "catagori": "Frontend",
     "tacknologi": ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
     "metrich": { "views": 1200, "likes": 150, "completed": true },
-    "damoUrl": "https://portfolio-demo.com",
-    "githubUrl": "https://github.com/yourname/portfolio"
+    "damoUrl": "https://scintillating-crepe-f9072d.netlify.app",
+    "githubUrl": "https://i.ibb.co.com/pjWWHNZg/Professional-web-development-services-showcase.png",
   },
+  
   {
     "id": 2,
     "titel": "E-commerce Website",
