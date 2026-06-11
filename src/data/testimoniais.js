@@ -1,40 +1,64 @@
 const testimonials = [
   {
     id: 1,
-    name: "John Smith",
-    role: "Frontend Developer",
-    company: "Tech Solutions Ltd",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    quote: "Amazing work quality and very professional approach. Delivered everything on time.",
-    rating: 5
+    name: "David Wilson",
+    role: "CEO",
+    company: "Digital Growth Agency",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    quote:
+      "Plabon did an outstanding job on our website. The design was modern, responsive, and delivered exactly as requested. Highly recommended!",
+    rating: 5,
   },
   {
     id: 2,
-    name: "Sarah Johnson",
+    name: "Sophia Anderson",
     role: "UI/UX Designer",
-    company: "Creative Studio",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
-    quote: "Highly skilled developer with great communication. Really satisfied with the work.",
-    rating: 5
+    company: "Creative Vision Studio",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    quote:
+      "Excellent communication and strong React skills. The project was completed on time with great attention to detail.",
+    rating: 5,
   },
   {
     id: 3,
-    name: "Michael Brown",
+    name: "James Miller",
     role: "Project Manager",
-    company: "Digital Agency",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
-    quote: "Very cooperative and understands requirements clearly. Strong technical skills.",
-    rating: 4
+    company: "TechFlow Solutions",
+    image: "https://randomuser.me/api/portraits/men/56.jpg",
+    quote:
+      "Working with Plabon was smooth and professional. He understood our requirements quickly and delivered a high-quality product.",
+    rating: 5,
   },
   {
     id: 4,
-    name: "Emily Davis",
+    name: "Emma Thompson",
     role: "Business Owner",
     company: "Startup Hub",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-    quote: "Delivered beyond expectations. Great experience working together.",
-    rating: 5
-  }
+    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    quote:
+      "Very talented developer. The website performance and user experience improved significantly after his work.",
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: "Daniel Carter",
+    role: "Marketing Director",
+    company: "BrandBoost Media",
+    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    quote:
+      "Professional, reliable, and highly skilled. I would definitely hire him again for future projects.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "Olivia Martinez",
+    role: "Founder",
+    company: "NextGen Startup",
+    image: "https://randomuser.me/api/portraits/women/79.jpg",
+    quote:
+      "The final result exceeded our expectations. Great coding standards and a beautiful design implementation.",
+    rating: 5,
+  },
 ];
 
 export default testimonials;
