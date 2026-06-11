@@ -41,7 +41,7 @@ const scaleIn = {
 
 const About = () => {
   return (
-    <section className="w-full py-20 px-6 md:px-12 bg-black text-white relative overflow-hidden">
+    <section id="about" className="w-full py-20 px-6 md:px-12 bg-black text-white relative overflow-hidden">
       
       {/* Background Glow */}
       <motion.div

@@ -29,7 +29,7 @@ const SkillCard = ({ title, items }) => {
               transition={{ delay: index * 0.1 }}
             >
               {/* Top Row */}
-              <div className="flex items-center justify-between mb-1">
+              <div id="skills" className="flex items-center justify-between mb-1">
                 <div className="flex items-center gap-2">
                   <Icon className="text-green-400 text-lg" />
                   <span className="text-sm">{skill.name}</span>
